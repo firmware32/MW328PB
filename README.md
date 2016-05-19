@@ -16,24 +16,24 @@ This is a quadcopter based on the ATMEGA328PB IC. It is intended to have specifi
 | --- |-------------:|---| ---|
 | D0  | RX0 - TEL/OSD
 | D1  | TX0 - TEL/OSD   
-| D2  | PWM6 - CAM|  
-| D3 | PWM5 - CAM|
-| D4| BUZZER | 
+| D2  | CH1-PPM|  
+| D3 | CH2|
+| D4| CH3 | 
 | D5| PWM4 - LF |
 | D6| PWM3-RR |
-| D7| CH1 |
-| D8| CH2|
+| D7| CH4 |
+| D8| BUZZER|
 | D9| PWM2-LR|
 | D10| PWM1-RL |
 | D11| TX1- GPS |
 | D12| RX1-GPS|
 | D13| LED |
-| A0| CH3|
-| A1| CH4
-| A2| CH5
-| A3| CH6
-| A4| CH7
-| A5| CH8
+| A0| CH5|
+| A1| CH6
+| A2| CH7
+| A3| CH8
+| A4| PWM5/SERVO1
+| A5| PWM6/SERVO2
 | A6| Bat
 | A7| Cur
 | PE0| SCL1
