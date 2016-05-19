@@ -12,8 +12,8 @@ This is a quadcopter based on the ATMEGA328PB IC. It is intended to have specifi
 - **1 CUR:** A7
  
 # Pin outs
-| Pin        | Func         
-| --- |-------------:|
+| Pin        | Func  | Port | P#        
+| --- |-------------:|---| ---|
 | D0  | RX0 - TEL/OSD
 | D1  | TX0 - TEL/OSD   
 | D2  | PWM6 - CAM|  
@@ -47,3 +47,30 @@ IC | MPU6050| GYRO/ACC
 IC |HMC5883| MAG
 IC |BMP180 | BARO
 IC |UBLOX7 | GPS
+
+Pin|User|Port
+--- | --- | ---
+D0	|	RX0 - TEL/OSD	|	PORTD
+D1	|	TX0 - TEL/OSD	|	PORTD
+D2	|	PWM6 - CAM	|	PORTD
+D3	|	PWM5 - CAM	|	PORTD
+D4	|	BUZZER	|	PORTD
+D5	|	PWM4 - LF	|	PORTD
+D6	|	PWM3-RR	|	PORTD
+D7	|	CH1	|	PORTD
+D8	|	CH2	|	PORTB
+D9	|	PWM2-LR	|	PORTB
+D10	|	PWM1-RL	|	PORTB
+D11	|	TX1- GPS	|	PORTB
+D12	|	RX1-GPS	|	PORTB
+D13	|	LED	|	PORTB
+A0	|	CH3	|	PORTC
+A1	|	CH4	|	PORTC
+A2	|	CH5	|	PORTC
+A3	|	CH6	|	PORTC
+A4	|	CH7	|	PORTC
+A5	|	CH8	|	PORTC
+A6	|	Bat	|	PORTC
+A7	|	Cur	|	PORTC
+PE0	|	SCL1	|	
+PE1	|	SDA1	|	
